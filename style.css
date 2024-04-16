@@ -1,0 +1,146 @@
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Background image styles
+.bg-image {
+    background-image: url('saarthi bg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    z-index: -1;
+} */
+/* Header styles */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    width: 100%; /* Set navbar width to 100% */
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%; /* Set navbar width to 100% */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.hero form {
+    display: inline-block;
+}
+
+.hero input[type="text"],
+.hero input[type="email"] {
+    padding: 10px;
+    width: 300px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+/* Featured destinations section styles */
+.featured-destinations {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+.featured-destinations h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.destination {
+    text-align: left;
+}
+
+.destination img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.destination h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destination p {
+    font-size: 16px;
+}
+
+/* Newsletter section styles */
+.newsletter {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.newsletter h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 300px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
