@@ -215,61 +215,121 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
-/*login page*/
-.loginPage-title {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-    font-weight: 600;
+/*..............................*/
+ /*login page*/
+ .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #101010;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    width: 50%;
+    /* top:15%; */
+    /* left:10%; */
+    margin-top:50px;  
+    margin-left:300px;
+  }
+  
+  .form:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+  }
+  
+  #heading {
     text-align: center;
-    color: #000;
+    margin: 2em;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
   }
   
-  .input-container {
-    position: relative;
-  }
-  
-  .input-container input, .loginPage button {
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
     outline: none;
-    border: 1px solid #e5e7eb;
-    margin: 8px 0;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
   }
   
-  .input-container input {
-    background-color: #fff;
-    padding: 1rem;
-    padding-right: 3rem;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    width: 300px;
-    border-radius: 0.5rem;
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  .input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
   }
   
-  .submit {
-    display: block;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem;
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
-    background-color: #4F46E5;
-    color: #ffffff;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    font-weight: 500;
+  .input-field {
+    background: none;
+    border: none;
+    outline: none;
     width: 100%;
-    border-radius: 0.5rem;
-    text-transform: uppercase;
+    color: #d3d3d3;
   }
   
-  .signup-link {
-    color: #6B7280;
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    text-align: center;
+  .form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 2.5em;
   }
   
-  .signup-link a {
-    text-decoration: underline;
+  .button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .button1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .button2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .button2:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .button3 {
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+  }
+  
+  .button3:hover {
+    background-color: red;
+    color: white;
   }
   /*............................................*/
   /*registerPage*/
@@ -285,7 +345,7 @@ footer {
     border: 1px solid #333;
     position: absolute;
     top:15%;
-    left:50%;
+    left:40%;
     margin-top:-50px;  
     margin-left:-100px; 
 
