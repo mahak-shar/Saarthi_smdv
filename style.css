@@ -118,6 +118,7 @@ nav ul li a {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    /* object-fit: contain; */
 }
 .trip-search {
     position: absolute; /* Position the search form absolutely within the .image-overlay */
@@ -125,8 +126,9 @@ nav ul li a {
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    padding: 20px;
+    padding-bottom: 0.001px;
     z-index: 1; /* Ensure the search form appears above the overlay */
+
 }
 
 
