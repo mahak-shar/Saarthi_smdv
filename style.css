@@ -24,7 +24,17 @@ header {
 header h1 {
     font-size: 36px;
 }
-
+/* Header button styles */
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+header button {
+    /* Add any additional styling for the button */
+    margin-top: 10px; /* Adjust the margin-top as needed */
+}
 nav ul {
     list-style: none;
     width: 100%; /* Set navbar width to 100% */
@@ -78,6 +88,64 @@ nav ul li a {
 .hero button:hover {
     background-color: #0056b3;
 }
+/* plan you tripsection*/
+/* styles.css */
+
+/* Plan Your Trip section styles */
+/* styles.css */
+
+/* Plan Your Trip section styles */
+.trip-box {
+    position: relative; /* Ensure relative positioning for absolute elements */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    height: 400px; /* Adjust the height as needed */
+}
+
+.image-overlay {
+    position: absolute; /* Position the overlay relative to the .trip-box */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.image-overlay img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.trip-search {
+    position: absolute; /* Position the search form absolutely within the .image-overlay */
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 20px;
+    z-index: 1; /* Ensure the search form appears above the overlay */
+}
+
+
+.trip-search input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.trip-search button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+    border-radius: 20px;
+} 
 
 /* Featured destinations section styles */
 .featured-destinations {
