@@ -227,9 +227,7 @@ footer {
     background-color: #101010;
     border-radius: 25px;
     transition: .4s ease-in-out;
-    width: 50%;
-    /* top:15%; */
-    /* left:10%; */
+    width: 40%;
     margin-top:50px;  
     margin-left:300px;
   }
