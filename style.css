@@ -14,62 +14,39 @@ body {
     background-attachment: fixed; 
     z-index: -1;
 } */
-/* Header styles */
-header {
-    background-color: #fff;
-    padding: 20px 0;
-    width: 100%; /* Set navbar width to 100% */
+/* Navbar style */
+.navbar-toggler{
+  display: none;
 }
-
-header h1 {
-    font-size: 36px;
+@media (max-width: 700px) {
+  /* CSS styles for window sizes below 800px */
+  .navbar-toggler {
+      display: block;
+  }
+  .navitem{
+    display: none;
+  }
 }
-/* Header button styles */
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
+.navabar{
+  border-bottom-left-radius: 30px;
 }
-header button {
-    /* Add any additional styling for the button */
-    margin-top: 10px; /* Adjust the margin-top as needed */
+.nav-item{
+  list-style: none;
 }
-nav ul {
-    list-style: none;
-    width: 100%; /* Set navbar width to 100% */
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+.nav-link:hover{
+  background-color: rgba(87, 86, 86, 0.672);
+  padding: 10px;
+  border-radius: 30px;
+  transition: ease-in-out 0.5s;
 }
 
 /* Hero section styles */
 .hero {
-    background-color: #f9f9f9;
     padding: 50px 0;
     text-align: center;
 }
 
-.hero h2 {
-    font-size: 48px;
-    margin-bottom: 20px;
-}
 
-.hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
-}
-
-.hero form {
-    display: inline-block;
-}
 
 .hero input[type="text"],
 .hero input[type="email"] {
@@ -83,6 +60,7 @@ nav ul li a {
     color: #fff;
     border: none;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .hero button:hover {
