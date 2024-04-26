@@ -32,21 +32,21 @@
 .navbar ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-weight: 600;
     padding: 15px;
 }
 li a:hover{
-    background: black;
+    background: white;
     transition: 0.6s;
 }
 .navbar a:hover{
-    color: white;
+    color: blue;
 }
 .content{
     width: 100%;
     position: absolute;
-    color: black;
+    color: white;
     top: 45%;
     transform: translateY(-50%);
     text-align: center;
@@ -73,7 +73,7 @@ button:hover{
     transition: 0.5s;
 }
 button:hover{
-    color: black;
+    color: blue;
 }
 .banner video{
     position: absolute;
@@ -87,3 +87,7 @@ button:hover{
         height: auto;
     }
 }
+
+
+
+

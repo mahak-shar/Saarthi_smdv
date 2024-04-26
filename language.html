@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Switcher</title>
+</head>
+<body>
+    <h1 id="greeting">Hello</h1>
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('fr')">French</button>
+    <button onclick="changeLanguage('es')">Spanish</button>
+
+    <script>
+        function changeLanguage(lang) {
+            // Object containing language translations
+            const translations = {
+                'en': {
+                    greeting: 'Hello',
+                },
+                'fr': {
+                    greeting: 'Bonjour',
+                },
+                'es': {
+                    greeting: 'Hola',
+                }
+            };
+
+            // Update text content based on selected language
+            document.getElementById('greeting').textContent = translations[lang].greeting;
+
+            // Set the HTML lang attribute for accessibility and SEO
+            document.documentElement.lang = lang;
+        }
+    </script>
+</body>
+</html>
