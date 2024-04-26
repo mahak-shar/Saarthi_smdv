@@ -121,34 +121,29 @@ nav ul li a {
     object-fit: cover;
     /* object-fit: contain; */
 }
-.trip-search {
-    position: absolute; /* Position the search form absolutely within the .image-overlay */
-    bottom: 5px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding-bottom: 0.001px;
-    z-index: 1; /* Ensure the search form appears above the overlay */
 
+/* trip seearch */
+
+.tripdetails {
+  padding: 20px 0;
 }
 
 
-.trip-search input[type="text"] {
-    padding: 10px;
-    width: 300px;
-    border: 2px solid black;
-    border-radius: 20px;
+.tripdetails input[type="text"],
+.tripdetails input[type="date"] {
+  margin-bottom: 10px;
 }
 
-.trip-search button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border: 2px solid black;
-    border-radius: 20px;
-} 
+.tripdetails button {
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 30px;
+}
+
+/* Center the button horizontally */
+.tripdetails .text-center {
+  text-align: center;
+}
 
 /* Featured destinations section styles */
 .featured-destinations {
