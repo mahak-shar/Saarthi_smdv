@@ -20,8 +20,8 @@
     justify-content: space-between;
 }
 .logo{
-    width: 160px;
-    margin-top: -10px;
+    width: 100px;
+    margin-top:-10px;
     cursor: pointer;
 }
 .navbar ul li{
@@ -69,7 +69,7 @@ button{
     font-weight: 600;
 }
 button:hover{
-    background: rgb(0, 192, 226);
+    background: blue(0, 192, 226);
     transition: 0.5s;
 }
 button:hover{
@@ -88,6 +88,37 @@ button:hover{
     }
 }
 
-
-
+.button{
+    font-size: 2.4rem;
+    font-family: "Dongle-bold";
+    margin-bottom: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: center;
+    
+}
+.button h2{
+    margin-bottom: 40px;
+}
+.button-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+}
+.button-item img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+.button-item{
+    text-align: center;
+}
+.button-item h3{
+    font-size: 1rem;
+}
+.button-item p{
+    font-size: 1rem;
+    line-height: 1;
+    font-family: "Dongle-regular";
+}
 
