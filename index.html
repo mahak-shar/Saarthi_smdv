@@ -67,25 +67,47 @@
     </section>
 
     <section class="tripdetails">
-        
-
-<div class="search-form">
-    <h3>Book your Flight</h3>
-    <input type="text" id="from" placeholder="From (e.g., City, Airport)">
-    <input type="text" id="to" placeholder="To (e.g., City, Airport)">
-    <div class="date-inputs">
-        <div>
-            <div class="label">Departure Date:</div>
-            <input type="date" id="depart-date" placeholder="Departure Date">
+        <div class="container" style="background-color: rgba(200, 198, 198, 0.453); padding: 20px; border-radius: 30px; margin: auto;">
+            <h3>Let's Plan Your Trip !!!!</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <h6>From :</h6>
+                    <input type="text" class="form-control" id="additional-info-1" placeholder="From (e.g., City, Airport)">
+                </div>
+                <div class="col-md-6">
+                    <h6>Destination :</h6>
+                    <input type="text" class="form-control" id="additional-info-2" placeholder="To (e.g., City, Airport)">
+                </div>
+            </div>
+            <!-- New row with two input fields -->
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>Departure Date :</h6>
+                    <input type="date" class="form-control" id="depart-date" placeholder="Departure Date" title="Select departure date">
+                </div>
+                <div class="col-md-3">
+                    <h6>Return Date:</h6>
+                    <input type="date" class="form-control" id="return-date" placeholder="Return Date" title="Select return date">
+                </div>
+                <div class="col-md-3">
+                    <h6>Budget :</h6>
+                    <input type="text" class="form-control" id="from" placeholder="₹ XXXX ">
+                </div>
+                <div class="col-md-3">
+                    <h6>Trip Preferences :</h6>
+                    <input type="text" class="form-control" id="to" placeholder="">
+                </div>
+            </div>
+            <!-- End of new row -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-primary" onclick="searchFlights()">Search</button>
+                </div>
+            </div>
         </div>
-        <div>
-            <div class="label">Return Date:</div>
-            <input type="date" id="return-date" placeholder="Return Date">
-        </div>
-    </div>
-    <button onclick="searchFlights()">Search</button>
-</div>
     </section>
+    
+    
     <br>
     <br>
     <section class="featured-destinations">
