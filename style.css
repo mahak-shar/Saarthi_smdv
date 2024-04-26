@@ -227,9 +227,7 @@ footer {
     background-color: #101010;
     border-radius: 25px;
     transition: .4s ease-in-out;
-    width: 50%;
-    /* top:15%; */
-    /* left:10%; */
+    width: 40%;
     margin-top:50px;  
     margin-left:300px;
   }
@@ -480,3 +478,42 @@ footer {
       opacity: 0;
     }
   }
+  /*............................................*/
+  /*--SECTION TRIP DETAILS--*/
+  .search-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.search-form {
+    display: inline-block;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.search-form input[type="text"],
+.search-form input[type="date"],
+.search-form button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.search-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search-form button:hover {
+    background-color: #45a049;
+}
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.date-inputs {
+    display: flex;
+    justify-content: space-between;
+}
