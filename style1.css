@@ -20,7 +20,7 @@
     justify-content: space-between;
 }
 .logo{
-    width: 100px;
+    width: 200px;
     margin-top:-10px;
     cursor: pointer;
 }
@@ -88,11 +88,6 @@ button:hover{
     }
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> c278138bac14c9a180960169da34d08431ae7690
 .button{
     font-size: 2.4rem;
     font-family: "Dongle-bold";
@@ -126,7 +121,4 @@ button:hover{
     line-height: 1;
     font-family: "Dongle-regular";
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> c278138bac14c9a180960169da34d08431ae7690
