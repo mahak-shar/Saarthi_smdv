@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Pop-up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    .feedback-popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9999;
+    }
+
+    .popup-content {
+      background-color: #fff;
+      width: 60%;
+      max-width: 500px;
+      margin: 10% auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+
+    .close {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 24px;
+      cursor: pointer;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      resize: none;
+    }
+
+    .rating {
+      margin-bottom: 20px;
+    }
+
+    .rating input[type="radio"] {
+      display: none;
+    }
+
+    .rating label {
+      display: inline-block;
+      font-size: 30px;
+      margin-right: 10px;
+      cursor: pointer;
+      color: #ddd; /* Unselected star color */
+    }
+
+    .rating label:hover,
+    .rating input[type="radio"]:checked ~ label {
+      color: #f1c40f; /* Selected star color */
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+
+    .home-link {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    .home-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="feedback-popup" id="feedbackPopup">
+    <div class="popup-content">
+      <span class="close" onclick="closeFeedbackPopup()">&times;</span>
+      <h2>Thank you for your feedback!</h2>
+      <p>We appreciate your input.</p>
+      <p><a href="index.html" class="home-link">Home >></a></p>
+    </div>
+  </div>
+
+  <script>
+    function closeFeedbackPopup() {
+      document.getElementById('feedbackPopup').style.display = 'none';
+    }
+
+    // Simulating feedback submission (replace this with your actual submission code)
+    setTimeout(function() {
+      document.getElementById('feedbackPopup').style.display = 'block';
+    }, 3000); // Change the delay (in milliseconds) as needed
+  </script>
+</body>
+</html>
