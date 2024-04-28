@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Intro Section Styles */
+.intro {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+.company-name {
+    font-weight: bold;
+    color: #007bff; /* Blue color for company name */
+}
+
+/* Members Section Styles */
+.members {
+    margin-bottom: 30px;
+}
+
+.members ul {
+    padding-left: 20px;
+}
+
+.members li {
+    margin-bottom: 10px;
+}
+
+.members li strong {
+    color: #007bff; /* Blue color for member names */
+}
+
+/* Image Section Styles */
+.image {
+    text-align: center;
+   
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+   
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Values Section Styles */
+.values {
+    margin-bottom: 30px;
+}
+
+.values ul {
+    padding-left: 20px;
+}
+
+.values li {
+    margin-bottom: 10px;
+}
+
+.values li strong {
+    color: #007bff; /* Blue color for value titles */
+}
