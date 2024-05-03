@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f8f8;
+    background-color:#f9f9f9;
 }
 
 .about-container {
@@ -45,32 +45,26 @@ ul {
     margin-bottom: 30px;
 }
 
-.members ul {
-    padding-left: 20px;
+.team-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
 }
 
-.members li {
-    margin-bottom: 10px;
+.team-photo {
+    width: 100px; /* Adjust the width of the team member photos */
+    height: 100px; /* Adjust the height of the team member photos */
+    border-radius: 50%; /* Make the photos circular */
+    margin-right: 20px; /* Adjust the spacing between photo and description */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
 }
 
-.members li strong {
+.member-description {
+    flex: 1;
+}
+
+.member-description strong {
     color: #007bff; /* Blue color for member names */
-}
-
-/* Image Section Styles */
-.image {
-    text-align: center;
-   
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-   
-    display: block;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Values Section Styles */
