@@ -1,4 +1,4 @@
-/* General Styles */
+/* General Styles
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -29,7 +29,7 @@ ul {
 }
 
 /* Intro Section Styles */
-.intro {
+/* .intro {
     border-bottom: 2px solid #eee;
     padding-bottom: 20px;
     margin-bottom: 30px;
@@ -37,11 +37,11 @@ ul {
 
 .company-name {
     font-weight: bold;
-    color: #007bff; /* Blue color for company name */
-}
+    color: #007bff; 
+} */
 
 /* Members Section Styles */
-.members {
+/* .members {
     margin-bottom: 30px;
 }
 
@@ -52,23 +52,23 @@ ul {
 }
 
 .team-photo {
-    width: 100px; /* Adjust the width of the team member photos */
-    height: 100px; /* Adjust the height of the team member photos */
-    border-radius: 50%; /* Make the photos circular */
-    margin-right: 20px; /* Adjust the spacing between photo and description */
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-}
-
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin-right: 20px; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); 
+} */
+/* 
 .member-description {
     flex: 1;
 }
 
 .member-description strong {
-    color: #007bff; /* Blue color for member names */
-}
+    color: #007bff; 
+} */
 
 /* Values Section Styles */
-.values {
+/* .values {
     margin-bottom: 30px;
 }
 
@@ -81,5 +81,5 @@ ul {
 }
 
 .values li strong {
-    color: #007bff; /* Blue color for value titles */
-}
+    color: #007bff;  
+}  */
